@@ -13,6 +13,55 @@
 <p><span>40723235 馮寬永 期中自評成績: <span style="color: #ff0000;">30 </span>倉儲:<a href="https://mdecp2018.github.io/site-s40723235"> https://mdecp2018.github.io/site-s40723235</a></span></p>
 <p><span>40723238 黃語晨 期中自評成績: <span style="color: #ff0000;">65 </span>倉儲:<a href="https://mdecp2018.github.io/site-s40723238"> https://mdecp2018.github.io/site-s40723238</a></span></p>
 <p><span>40723240 楊朝有 期中自評成績: <span style="color: #ff0000;">87 </span>倉儲:<a href="https://mdecp2018.github.io/site-s40723240"> https://mdecp2018.github.io/site-s40723240</a></span></p>
+<h2>git指令</h2>
+<p>git基本指令<br/>mkdir name 創建一個文檔夾</p>
+<p>rm file 刪除</p>
+<p>cd name 進入文檔夾</p>
+<p>pwd 查看當前目錄</p>
+<p>git init 把當前目錄變成git可以管理的倉庫 生成.git文檔夾</p>
+<p>git add name 把文檔添加到暫存區stage</p>
+<p>git commit -m “ ” 把暫存區所有文檔提交到git當前分支上（本地倉庫）</p>
+<p>git status 查看當前git倉庫狀態</p>
+<p>git diff file 查看修改的文檔內容</p>
+<p>git log 查看從最近到最遠的提交日誌</p>
+<p>git reset --hard 版本號 回退到某版本（HEAD指向當前版本）</p>
+<p>git push origin HEAD --force 上傳目前(hard)版本<br/>git reflog 查看命令操作歷史</p>
+<p>git checkout -- file 丟棄工作區文檔的修改</p>
+<p>git reset HEAD file 丟棄暫存區的文檔</p>
+<p>git rm file 刪除工作區文檔後還需刪除git中的文檔</p>
+<p>git checkout --file 恢復誤刪的git文檔</p>
+<p>git remote add origin address 關聯一個遠程倉庫</p>
+<p>git push -u origin master 第一次推送代碼到遠程倉庫</p>
+<p>（-u會把本地倉庫master分支和遠程倉庫的master分支關聯起來）</p>
+<p>git clone address 從遠程倉庫克隆代碼到本地</p>
+<p>git branch name 創建分支</p>
+<p>git checkout name 切換分支</p>
+<p>git branch 查看分支</p>
+<p>git checkout -b name 創建分支並切換到分支上　　</p>
+<p>git merge name 合併指定分支到當前分支上</p>
+<p>git branch -d name 合併後刪除分支</p>
+<p>合併時出現衝突要手動解決衝突，再提交，最後合併。</p>
+<p>git stash 將寫到一半的代碼從工作區拿走存起來</p>
+<p>git stash pop 恢復隱藏的代碼到工作區並刪除隱藏位置的代碼</p>
+<p>git branch -D name 強行刪除一個沒有合併過的分支</p>
+<h2>python基本語法</h2>
+<p>python基本語法<br/>● ”#”符號後是註解（comment），可以在一列的開頭或中間加入<br/>● reserved word or built-in function (變數取名請避開！)<br/>○ and, exec, not, as, finally, or, assert, for, pass, except<br/>○ break, from, print, class, global, raise, continue, if, return<br/>○ def, import, try, del, in, while, elif, is, with, else, lambda, yield<br/>● 縮排視為不同的block (在IF判斷式或迴圈的段落中使用)<br/>○ 縮排可以用tab或是數個空格(至少一個空格)。<br/>○ 空格的數量不同，視為不同的block (bug很容易因為這一點而發生)<br/>● python的每個變數視為一個object。</p>
+<p>Python variables</p>
+<p>● 不需要事先宣告變數，直接用”=“ assign value（賦值）即可。<br/>○ x=3.14 → 實數變數<br/>● 變數類型（data type）根據被賦予的值決定（之後如果被assign不同類型的數<br/>值，該變數的類型就會直接改變）<br/>○ x=‘text’ → 字串變數<br/>● 確認變數的data type: type(x)<br/>● 變數名稱中的大小寫要完全一致（a、A會當作不同的變數）<br/>● python可以在同一個指令中對多個變數賦值<br/>○ x, y = 2, 1 → x = 2, y = 1<br/>● 若想要移除變數，使用del x y<br/>● 常見的data type: number, string, list, tuple, boolean</p>
+<p>Simple input/output</p>
+<p>● input(“…”) 在螢幕上顯示字串，並等待使用者輸入字串<br/>○ x = input (“input your name: “)  螢幕上會顯示訊息 input your name:，<br/>使用者輸入的內容，會用字串類型存到x變數<br/>○ 就算使用者輸入數字，仍然是以字串類型儲存（之後會介紹如何切割字串<br/>（split），轉為數值）<br/>● print (...) 顯示在螢幕上<br/>○ e.g. print (“Hello World!!”)<br/>○ 若要一次輸出多個變數至螢幕上，直接以逗號分開 e.g. print(x,y,z)<br/>○ 也可以format output</p>
+<p>Python variable types</p>
+<p>● Number 數值<br/>○ int : a = 11<br/>○ float: a = 1.1e-18<br/>○ complex: a = 4. + 7j<br/>● String 字串 （ 用“ “ 或 ‘ ‘夾起）<br/>○ e.g. x = “Hello World!” or x = ‘Hello World!’<br/>○ 取出字串的局部：x [0:3]<br/>■ 注意：index 從 0 開始計算！<br/>■ [a:b] -- begin at index a and end before index b (e.g., x[0:3] -&gt; “Hel”)<br/>○ 不可以對字串的局部做更改，e.g. x[0:3] =”Yo!” (這個是錯誤的語法)<br/>● Boolean 邏輯<br/>○ 只有True, False兩種值，根據邏輯判斷（IF condition）的結果決定<br/>○ 兩個boolean 變數做運算，會以True=1, False=0 做整數運算</p>
+<p>Python variables: list and tuple</p>
+<p>● list, tuple<br/>○ 類似陣列的概念，但可以混雜儲存不同型態的資料，如下所示<br/>○ List： x = [ 'abcd', 786 , 2.23, 'john', 70.2]<br/>○ Tuple: y = ( 'abcd', 786 , 2.23, 'john', 70.2)<br/>○ assignment: list 使用 [], tuple 使用(), 每個元素都用”，”分開<br/>○ list 的大小及元素可以改變。tuple則不行 (類似常數陣列)<br/>○ sub-list 或是 sub-tuple語法類似取出字串局部：<br/>x[0:2]  ['abcd', 786 ]<br/>y[2:4]  (786, 2.23 )</p>
+<p>Convert data type</p>
+<p>有時候需要不同型態的資料轉換，例如將字串”10”轉成整數10<br/>下列為常用的built-in function<br/>● int (x)<br/>● float (x)<br/>● str (x)</p>
+<p>Arithmetic Operators</p>
+<p>● 加法 +<br/>○ string 相加：形成新的字串 ● 次方 **<br/>■ x = “Hello”, y = “World” ● 取餘數 %<br/>■ c = x + y → c = “HelloWorld” ● 整除至最近整數 //<br/>● 減法 - ○ 相除後取最接近的整數（整實數），<br/>● 乘法 * 結果的類型取決於兩個變數的類型：<br/>○ string 乘一個數字(int)：字串重複幾次 9//2 = 4<br/>■ x = “Yo!” 9.0//2.0 = 4.0<br/>■ y = x * 3 → y = “Yo!Yo!Yo!” 11.0//3 = 4.0<br/>● 除法 /<br/>○ 注意：兩個整數相除，結果是實數<br/>■ x = 21, y = 10<br/>■ c = x / y → c = 2.1</p>
+<p>Arithmetic Operators</p>
+<p>● 如果要進行下面的運算 a= a+b （用a+b的結果為a重新賦值）<br/>● 在python可以改寫成： a += b<br/>● 所以算術運算符號可以有<br/>+= -= *= /= %= **= //=</p>
+<p>Modules or package （也稱為library）</p>
+<p>● ”modules” or “packages”：通常是其他人寫好的函數或指令，打包成一個「工具庫」<br/>方便分享使用。（非python內建，可能會需要下載安裝）<br/>○ 本課程會用到的library: numpy (array), matplotlib (基本繪圖), basemap (地圖),<br/>netCDF (讀nc檔)<br/>● 使用方式：import module_name<br/>○ 在執行工具庫內的指令之前，就要先把modules 引進來（不然python不會認得<br/>非內建的指令）<br/>○ 使用工具庫內的指令：module_name.function (or module_name.constant)<br/>○ 可以使用import module_name as xxx (xxx是你自己取的縮寫）<br/>使用指令的語法就簡化成xxx.function，例如:<br/>import math as m</p>
 <h1>Course</h1>
 <h2>week10</h2>
 <p>1.改版<span style="color: #ff0000;"><strong>p37</strong></span></p>
@@ -61,6 +110,7 @@
 <p>40723235</p>
 <p>40723238</p>
 <p>40723240:</p>
+<p>這周就先決定一個主題,經過第一次討論後大概是跟數字有關的遊戲,要有想法才能決定下一步,但是對python相關的語言不熟,所以只能先研究再來寫了.</p>
 <h2>第十三周</h2>
 <p>40723227</p>
 <p>40723228</p>
@@ -68,6 +118,7 @@
 <p>40723235</p>
 <p>40723238</p>
 <p>40723240</p>
+<p>這周老師示範kmolgame裡面的小遊戲,了解它可以由leo editor編輯裡面的程式來調整遊戲相關動作,數量.發現程式不太好學.</p>
 <h2>第十四周</h2>
 <p>40723227</p>
 <p>40723228</p>
@@ -75,6 +126,7 @@
 <p>40723235</p>
 <p>40723238</p>
 <p>40723240</p>
+<p>這周是教如何設定分組密碼,過程稍有複雜,算走一步算一步了.</p>
 <h2>第十五周</h2>
 <p>40723227</p>
 <p>40723228</p>
@@ -82,6 +134,7 @@
 <p>40723235</p>
 <p>40723238</p>
 <p>40723240</p>
+<p><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">這周老師是說明如何利用協同 Markdown 編輯建立期末報告, 以及如何利用 Brython 建立網際程式.盡力去理解老師所講的,就是分工合作的概念</yt-formatted-string></p>
 <h2>第十六周</h2>
 <p>40723227</p>
 <p>40723228</p>
@@ -104,6 +157,11 @@
 <p>40723238</p>
 <p>40723240</p>
 <h1>Final project</h1>
+<h2>Week13</h2>
+<p>pdf報告</p>
+<h2>Week14</h2>
+<p>pdf報告</p>
+<h2>Week15</h2>
 <p>pdf報告</p>
 <h1>Attend＆Absence</h1>
 <p><strong>每周組員點名:</strong></p>

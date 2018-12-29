@@ -645,12 +645,12 @@ def checkLogin():
         session['admin'] = 1
         return redirect('/edit_page')
     elif password == "bg9":
-        return redirect('/helloworld')
+        return redirect('/希望期末順利通過')
     return redirect('/')
     
-@app.route('/helloworld')
+@app.route('/希望期末順利通過')
 def show_helloworld():
-    return "&lt;p&gt;hello world&lt;/p&gt;"    
+    return "&lt;p&gt;希望期末順利通過&lt;/p&gt;"    
 
  
 </t>

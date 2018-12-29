@@ -79,12 +79,12 @@ def checkLogin():
         session['admin'] = 1
         return redirect('/edit_page')
     elif password == "bg9":
-        return redirect('/helloworld')
+        return redirect('/希望期末順利通過')
     return redirect('/')
     
-@app.route('/helloworld')
+@app.route('/希望期末順利通過')
 def show_helloworld():
-    return "<p>hello world</p>"    
+    return "<p>希望期末順利通過</p>"    
 
  
 @app.route('/delete_file', methods=['POST'])

@@ -1,0 +1,176 @@
+<!doctype html>
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>期末分組專案</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!-- for LaTeX equations 暫時不用
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+-->
+<!-- 暫時不用
+<script src="./../static/fengari-web.js"></script>
+<script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+
+<script src="./../static/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+    $("ul.topmenu> li:has(ul) > a").append('<div class="arrow-right"></div>');
+    $("ul.topmenu > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+});
+</script>
+
+</head><header><h1>FinalProject-bg9</h1> <confmenu>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="sitemap.html">Site Map</a></li>
+<li><a href="./../reveal/index.html">reveal</a></li>
+<li><a href="./../blog/index.html">blog</a></li>
+
+</ul>
+</confmenu></header>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='Introduction.html'>Introduction</a><ul><li><a href='git指令.html'>git指令</a><li><a href='python基本語法.html'>python基本語法</a><li><a href='靜態與動態網站.html'>靜態與動態網站</a><li><a href='可攜系統更新.html'>可攜系統更新</a></li></ul><li><a href='Course＆Practice.html'>Course＆Practice</a><ul><li><a href='week10.html'>week10</a><li><a href='week11.html'>week11</a><li><a href='week12.html'>week12</a><li><a href='week13.html'>week13</a><li><a href='week14.html'>week14</a><li><a href='week15.html'>week15</a><li><a href='week16.html'>week16</a><li><a href='week17.html'>week17</a><li><a href='week18.html'>week18</a></li></ul><li><a href='Issue＆Solution.html'>Issue＆Solution</a><li><a href='Experience.html'>Experience</a><ul><li><a href='第十周.html'>第十周</a><li><a href='第十一周.html'>第十一周</a><li><a href='第十二周.html'>第十二周</a><li><a href='第十三周.html'>第十三周</a><li><a href='第十四周.html'>第十四周</a><li><a href='第十五周.html'>第十五周</a><li><a href='第十六周.html'>第十六周</a></li></ul><li><a href='Final project.html'>Final project</a><ul><li><a href='第13周.html'>第13周</a><li><a href='第14周.html'>第14周</a><li><a href='第15周.html'>第15周</a></li></ul><li><a href='Attend＆Absence.html'>Attend＆Absence</a></li></ul></nav><section>靜態與動態網站 << <a href='靜態與動態網站.html'>Previous</a> <a href='Course＆Practice.html'>Next</a> >> Course＆Practice<br /><h1>可攜系統更新</h1>
+<p><a href="https://drive.google.com/open?id=1qSnGb4NBmfGG0jGVNfQJX_9TNVweIdFW">p37-18.12.7z</a></p>
+<p>升級為 Python 3.7.1 (<a href="https://docs.python.org/3/whatsnew/3.7.html">What's New in Python 3.7.1</a>)</p>
+<p>內含 Heroku cli  版本 7.18.9 (啟動可攜系統後, 以 heroku --version 查詢版次, 以 heroku login 登入系統, 以 heroku logs 查詢啟動紀錄)</p>
+<p>內含 Eric6 IDE 18.11</p>
+<p>內含 V-rep 3.5.0 rev4</p>
+<p>內含 Fossil SCM Verion 2.7</p>
+<hr/>
+<p>上述從 Python 3.7.0 更新到 Python 3.7.1 是將安裝在 c:\python37 目錄下的系統安裝檔案, 直接覆蓋 Python 3.7.0 可攜版本.</p>
+<p>但因 Scripts/pip.exe 與 pip3.7.exe 與 pip3.exe 會將 c:\python37 直接寫入這三個 .exe 檔案, 導致直接執行 pip 時, 會因為找不到 c:\python37\python.exe 而無法執行, 必須使用 python -m pip 才能執行.</p>
+<p>修改方式為使用 <a href="https://mh-nexus.de/en/hxd/">https://mh-nexus.de/en/hxd/</a> , 在二位元模式下編輯這三個 .exe 檔案, 將 c:\python37 換為 y:\p37 即可.</p>
+<p>可攜<span> </span><a href="https://mdecp2018.github.io/finalproject-bgx./../downloads/HxD.7z">HxD.7z</a></p>
+<h4>如何建立 Windows 64 位元可攜系統</h4>
+<p>在 Windows 10 建立 Python 可攜系統的目的, 在於讓使用者可以自行攜帶與系統設定相關的檔案, 以及自行攜帶系統所安裝的 Python 特定模組, 讓使用者能將隨身系統放入隨身碟或隨身硬碟, 在任何 Windows 10 64 位元操作系統中使用.</p>
+<p>建立可攜系統的步驟如下:</p>
+<ol>
+<li>下載 64 位元 Windows 的 Python 安裝版本</li>
+<li>在 Windows 10 安裝 Python, 例如: 令其位於  C:\p37</li>
+<li>將 C:\p37 複製到 C:\tmp\ p37\data 目錄後, 移除前述所安裝的 Python 版本</li>
+<li>利用下列 C:\p37\start.bat 與 C:\p37\stop.bat 啟動與關閉可攜 Python 系統</li>
+<li>配合 SciTE 作為可攜 Python 系統的程式編輯器</li>
+<li>由於前述安裝的 Python 版本, 會將系統目錄寫入 Scripts\pip.exe 等三個檔案中, 可以使用  <a href="https://mh-nexus.de/en/hxd/">https://mh-nexus.de/en/hxd/</a> 改為可攜系統對應目錄.</li>
+<li>其餘所需 Python 模組, 直接由可攜系統啟動後, 以 pip install 安裝</li>
+</ol>
+<p><strong>start.bat</strong></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">@echo off
+REM 設定 y 硬碟代號與 data 目錄對應
+set Disk=y
+subst %Disk%: "data"
+REM 設定 leo 相關對應 Home 位置
+set HomePath=%Disk%:\home
+set HomeDrive=%Disk%:\home
+set Home=%Disk%:\home
+REM 將系統 Python 程式的 io 設為 utf-8
+set PYTHONIOENCODING="utf-8"
+REM 將後續的指令執行, 以 %Disk% 為主
+%Disk%:
+REM 設定 PYTHONPATH
+set PYTHONPATH=%Disk%:\p37\DLLs;%Disk%:\p37\Lib;%Disk%:\p37\Lib\site-packages;
+set PYTHONHOME=%Disk%:\p37
+REM for Qt and Qt Creator
+set LLVM_INSTALL_DIR=%Disk%:\LLVM;
+set QBS_INSTALL_DIR=%Disk%:\qbs-windows-x86_64-1.10.0;
+REM for TCL
+set TCL_LIBRARY=%Disk%:\p37\tcl\tcl8.6
+set TK_LIBRARY=%Disk%:\p37\tcl\tcl8.6
+REM 設定 Leo 所用的編輯器
+set LEO_EDITOR=%Disk%:\scite\bin\Sc1.exe;
+set BOOST_ROOT=%Disk%:\boost_1_66_0\;
+REM set CMAKE_PREFIX_PATH=%Disk%:\msys64\mingw64\
+REM for fossil https 連線設定
+REM 若在近端使用 fossil ui 則要蓋掉
+REM set HTTPS=on
+REM 指令搜尋路徑設定
+REM set path1=%PATH%;%Disk%:;%Disk%:\p37;%Disk%:\git\bin;%Disk%:\stunnel\bin;%Disk%:\sqlite-tools;%Disk%:\p37\Scripts;%Disk%:\Git\bin;%Disk%:\vrep331;
+REM path1 is base of this portable Python3.6 system
+set path1=%Disk%:;%Disk%:\p37;%Disk%:\git\bin;%Disk%:\stunnel\bin;%Disk%:\sqlite-tools;%Disk%:\p37\Scripts;%Disk%:\Git\bin;%Disk%:\vrep331;%Disk%:\p37\Lib\site-packages\PyQt5\Qt\bin;
+REM path2 is for pandoc and miktex
+set path2=%Disk%:\pandoc-2.0.2;%Disk%:\miktex_portable\texmfs\install\miktex\bin;%Disk%:\lua-5.3.4\bin;%Disk%:\coreutils-5.3.0\bin;%Disk%:\qtcreator-4.7.0-rc1\bin;%Disk%:\patch-2.5.9-7-bin\bin;
+REM path3 is for gcc development 
+set path3=%Disk%:\msys64\mingw64\bin;%Disk%:\swigwin-3.0.12;%Disk%:\cmake-3.10.1-win64-x64\bin;%Disk%:\diffutils-2.8.7-1\bin;%Disk%:\patch-2.5.9-7\bin;%Disk%:\graphviz-2.38\bin;
+set path4=%Disk%:\boost_1_66_0\;%Disk%:\Strawberry\perl\bin;%D%:\jom_1_1_2;%Disk%:\LLVM\bin;%Disk%:\QtCreator\bin;%Disk%:\vrep340_rev1;%Disk%:\p37\tcl\tcl8.6;%Disk%:\xsltproc;
+set path5=%Disk%:\ffmpeg-20180504-dc7a8f7-win64-static\bin;%Disk%:\oce-0.18.1\bin\;%Disk%:\oce-0.18.1\lib\;%Disk%:\gnuplot\bin;
+set JAVA_HOME=%Disk%:\Java\jdk1.8.0_172;
+set ANDROID_HOME=%Disk%:\Android\sdk;
+set path6=%Disk%:\Java\jdk1.8.0_172\bin;%Disk%:\Java\jre1.8.0_172\bin;%Disk%:\Android\AndroidStudio\bin;%Disk%:\Android\sdk\tools;%Disk%:\Android\sdk\platform-tools;%Disk%:\BIND9.12.2-P2.x64;
+REM for Pythonocc under MSYS2 according to https://groups.google.com/forum/?utm_medium=email&amp;utm_source=footer#!msg/pythonocc/z-NI9A-Vyic/8QjD81q-AwAJ
+set CSF_GraphicShr=%Disk%:\oce-0.18.1\bin\TKOpenGl.dll
+path=%path%;%path1%;%path2%;%path3%;%path4%;%path5%;%path6%;
+start /MIN %Disk%:\scite\bin\Sc1.exe
+start /MIN %Disk%:\scite\bin\Sc1.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+REM start /MIN cmd.exe /k "y:\cp2018.bat"
+REM start /MIN cmd.exe /k "y:\cp2018_http_server.bat
+REM start /MIN cmd.exe /k "y:\cadp2018.bat"
+REM 啟動 Leo 編輯器
+%Disk%:\p37\python.exe %Disk%:\launchLeo.py
+REM 啟動 stunnel
+REM start /MIN fossil.exe server -P 127.0.0.1:8080 %Disk%:\tmp\fossil_repo
+REM start /MIN stunnel.exe
+REM start qtcreator
+Exit</pre>
+<p><strong>stop.bat</strong></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">@echo off
+set Disk=y
+REM 關閉 SciTE
+taskkill /IM Sc1.exe /F
+REM 關閉 python
+taskkill /IM python.exe /F
+taskkill /IM pythonw.exe /F
+REM 關閉 stunnel
+taskkill /IM stunnel.exe /F
+REM 關閉 fossil
+taskkill /IM fossil.exe /F
+rem taskkill /IM sharex.exe /F
+REM 清除 log 資料
+path=%PATH%;
+REM del /Q /F  V:\tmp\*.*
+REM 終止虛擬硬碟與目錄的對應
+subst %Disk%: /D
+REM 關閉 cmd 指令視窗
+taskkill /IM cmd.exe /F
+REM taskkill /IM mingw32 /F
+EXIT
+</pre>
+<br />靜態與動態網站 << <a href='靜態與動態網站.html'>Previous</a> <a href='Course＆Practice.html'>Next</a> >> Course＆Practice</section></div></body></html>

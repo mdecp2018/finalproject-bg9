@@ -62,7 +62,141 @@
 <p>● 如果要進行下面的運算 a= a+b （用a+b的結果為a重新賦值）<br/>● 在python可以改寫成： a += b<br/>● 所以算術運算符號可以有<br/>+= -= *= /= %= **= //=</p>
 <p>Modules or package （也稱為library）</p>
 <p>● ”modules” or “packages”：通常是其他人寫好的函數或指令，打包成一個「工具庫」<br/>方便分享使用。（非python內建，可能會需要下載安裝）<br/>○ 本課程會用到的library: numpy (array), matplotlib (基本繪圖), basemap (地圖),<br/>netCDF (讀nc檔)<br/>● 使用方式：import module_name<br/>○ 在執行工具庫內的指令之前，就要先把modules 引進來（不然python不會認得<br/>非內建的指令）<br/>○ 使用工具庫內的指令：module_name.function (or module_name.constant)<br/>○ 可以使用import module_name as xxx (xxx是你自己取的縮寫）<br/>使用指令的語法就簡化成xxx.function，例如:<br/>import math as m</p>
-<h1>Course</h1>
+<h2>靜態與動態網站</h2>
+<p><strong>網站類型</strong></p>
+<p>使用者在建構網站時, 可以選擇採用靜態或動態網站類型, 靜態網站主要伺服<span> </span><a href="https://en.wikipedia.org/wiki/HTML">html</a><span> </span>檔案, 其中可能內含能在客戶端瀏覽器中執行的<span> </span><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a><span> </span>程式.</p>
+<p>而動態網站則將網際程式儲存在伺服器端, 透過解譯器與瀏覽器端的使用者互動後, 將<span> </span><a href="https://en.wikipedia.org/wiki/HTML">html</a><span> </span>檔案 (也可能內含能在客戶端瀏覽器中執行的<span> </span><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a><span> </span>程式) 送回瀏覽器端執行.</p>
+<p>本課程的靜態網站利用<span> </span><a href="https://pages.github.com/">Github Pages</a><span> </span>建構, 而動態網站則採用<span> </span><a href="https://www.heroku.com/">Heroku</a><span> </span>建構.</p>
+<p><strong>靜態網站優點</strong></p>
+<p>相對於動態網站, 靜態網站架構單純, 且直接送回使用者要求的<span> </span><a href="https://en.wikipedia.org/wiki/HTML">html</a><span> </span>檔案, 反應速度快, 伺服器端通常只需<span> </span><a href="https://en.wikipedia.org/wiki/World_Wide_Web">WWW</a>  伺服器, 因此維護成本較低.</p>
+<ol>
+<li>架構單純</li>
+<li>反應速度快</li>
+<li>維護成本較低</li>
+<li>較無受駭危機</li>
+</ol>
+<p><strong>靜態網站缺點</strong></p>
+<ol>
+<li>通常無法直接在網站中修改內容</li>
+<li>較無法與使用者進行互動</li>
+</ol>
+<p><strong>動態網站優點</strong></p>
+<ol>
+<li>規劃彈性高</li>
+<li>能與使用者直接進行互動</li>
+</ol>
+<p><strong>動態網站缺點</strong></p>
+<ol>
+<li>反應速度較慢</li>
+<li>維護成本較高</li>
+</ol>
+<h2>可攜系統更新</h2>
+<p><a href="https://drive.google.com/open?id=1qSnGb4NBmfGG0jGVNfQJX_9TNVweIdFW">p37-18.12.7z</a></p>
+<p>升級為 Python 3.7.1 (<a href="https://docs.python.org/3/whatsnew/3.7.html">What's New in Python 3.7.1</a>)</p>
+<p>內含 Heroku cli  版本 7.18.9 (啟動可攜系統後, 以 heroku --version 查詢版次, 以 heroku login 登入系統, 以 heroku logs 查詢啟動紀錄)</p>
+<p>內含 Eric6 IDE 18.11</p>
+<p>內含 V-rep 3.5.0 rev4</p>
+<p>內含 Fossil SCM Verion 2.7</p>
+<hr/>
+<p>上述從 Python 3.7.0 更新到 Python 3.7.1 是將安裝在 c:\python37 目錄下的系統安裝檔案, 直接覆蓋 Python 3.7.0 可攜版本.</p>
+<p>但因 Scripts/pip.exe 與 pip3.7.exe 與 pip3.exe 會將 c:\python37 直接寫入這三個 .exe 檔案, 導致直接執行 pip 時, 會因為找不到 c:\python37\python.exe 而無法執行, 必須使用 python -m pip 才能執行.</p>
+<p>修改方式為使用 <a href="https://mh-nexus.de/en/hxd/">https://mh-nexus.de/en/hxd/</a> , 在二位元模式下編輯這三個 .exe 檔案, 將 c:\python37 換為 y:\p37 即可.</p>
+<p>可攜<span> </span><a href="https://mdecp2018.github.io/finalproject-bgx/downloads/HxD.7z">HxD.7z</a></p>
+<h4>如何建立 Windows 64 位元可攜系統</h4>
+<p>在 Windows 10 建立 Python 可攜系統的目的, 在於讓使用者可以自行攜帶與系統設定相關的檔案, 以及自行攜帶系統所安裝的 Python 特定模組, 讓使用者能將隨身系統放入隨身碟或隨身硬碟, 在任何 Windows 10 64 位元操作系統中使用.</p>
+<p>建立可攜系統的步驟如下:</p>
+<ol>
+<li>下載 64 位元 Windows 的 Python 安裝版本</li>
+<li>在 Windows 10 安裝 Python, 例如: 令其位於  C:\p37</li>
+<li>將 C:\p37 複製到 C:\tmp\ p37\data 目錄後, 移除前述所安裝的 Python 版本</li>
+<li>利用下列 C:\p37\start.bat 與 C:\p37\stop.bat 啟動與關閉可攜 Python 系統</li>
+<li>配合 SciTE 作為可攜 Python 系統的程式編輯器</li>
+<li>由於前述安裝的 Python 版本, 會將系統目錄寫入 Scripts\pip.exe 等三個檔案中, 可以使用  <a href="https://mh-nexus.de/en/hxd/">https://mh-nexus.de/en/hxd/</a> 改為可攜系統對應目錄.</li>
+<li>其餘所需 Python 模組, 直接由可攜系統啟動後, 以 pip install 安裝</li>
+</ol>
+<p><strong>start.bat</strong></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">@echo off
+REM 設定 y 硬碟代號與 data 目錄對應
+set Disk=y
+subst %Disk%: "data"
+REM 設定 leo 相關對應 Home 位置
+set HomePath=%Disk%:\home
+set HomeDrive=%Disk%:\home
+set Home=%Disk%:\home
+REM 將系統 Python 程式的 io 設為 utf-8
+set PYTHONIOENCODING="utf-8"
+REM 將後續的指令執行, 以 %Disk% 為主
+%Disk%:
+REM 設定 PYTHONPATH
+set PYTHONPATH=%Disk%:\p37\DLLs;%Disk%:\p37\Lib;%Disk%:\p37\Lib\site-packages;
+set PYTHONHOME=%Disk%:\p37
+REM for Qt and Qt Creator
+set LLVM_INSTALL_DIR=%Disk%:\LLVM;
+set QBS_INSTALL_DIR=%Disk%:\qbs-windows-x86_64-1.10.0;
+REM for TCL
+set TCL_LIBRARY=%Disk%:\p37\tcl\tcl8.6
+set TK_LIBRARY=%Disk%:\p37\tcl\tcl8.6
+REM 設定 Leo 所用的編輯器
+set LEO_EDITOR=%Disk%:\scite\bin\Sc1.exe;
+set BOOST_ROOT=%Disk%:\boost_1_66_0\;
+REM set CMAKE_PREFIX_PATH=%Disk%:\msys64\mingw64\
+REM for fossil https 連線設定
+REM 若在近端使用 fossil ui 則要蓋掉
+REM set HTTPS=on
+REM 指令搜尋路徑設定
+REM set path1=%PATH%;%Disk%:;%Disk%:\p37;%Disk%:\git\bin;%Disk%:\stunnel\bin;%Disk%:\sqlite-tools;%Disk%:\p37\Scripts;%Disk%:\Git\bin;%Disk%:\vrep331;
+REM path1 is base of this portable Python3.6 system
+set path1=%Disk%:;%Disk%:\p37;%Disk%:\git\bin;%Disk%:\stunnel\bin;%Disk%:\sqlite-tools;%Disk%:\p37\Scripts;%Disk%:\Git\bin;%Disk%:\vrep331;%Disk%:\p37\Lib\site-packages\PyQt5\Qt\bin;
+REM path2 is for pandoc and miktex
+set path2=%Disk%:\pandoc-2.0.2;%Disk%:\miktex_portable\texmfs\install\miktex\bin;%Disk%:\lua-5.3.4\bin;%Disk%:\coreutils-5.3.0\bin;%Disk%:\qtcreator-4.7.0-rc1\bin;%Disk%:\patch-2.5.9-7-bin\bin;
+REM path3 is for gcc development 
+set path3=%Disk%:\msys64\mingw64\bin;%Disk%:\swigwin-3.0.12;%Disk%:\cmake-3.10.1-win64-x64\bin;%Disk%:\diffutils-2.8.7-1\bin;%Disk%:\patch-2.5.9-7\bin;%Disk%:\graphviz-2.38\bin;
+set path4=%Disk%:\boost_1_66_0\;%Disk%:\Strawberry\perl\bin;%D%:\jom_1_1_2;%Disk%:\LLVM\bin;%Disk%:\QtCreator\bin;%Disk%:\vrep340_rev1;%Disk%:\p37\tcl\tcl8.6;%Disk%:\xsltproc;
+set path5=%Disk%:\ffmpeg-20180504-dc7a8f7-win64-static\bin;%Disk%:\oce-0.18.1\bin\;%Disk%:\oce-0.18.1\lib\;%Disk%:\gnuplot\bin;
+set JAVA_HOME=%Disk%:\Java\jdk1.8.0_172;
+set ANDROID_HOME=%Disk%:\Android\sdk;
+set path6=%Disk%:\Java\jdk1.8.0_172\bin;%Disk%:\Java\jre1.8.0_172\bin;%Disk%:\Android\AndroidStudio\bin;%Disk%:\Android\sdk\tools;%Disk%:\Android\sdk\platform-tools;%Disk%:\BIND9.12.2-P2.x64;
+REM for Pythonocc under MSYS2 according to https://groups.google.com/forum/?utm_medium=email&amp;utm_source=footer#!msg/pythonocc/z-NI9A-Vyic/8QjD81q-AwAJ
+set CSF_GraphicShr=%Disk%:\oce-0.18.1\bin\TKOpenGl.dll
+path=%path%;%path1%;%path2%;%path3%;%path4%;%path5%;%path6%;
+start /MIN %Disk%:\scite\bin\Sc1.exe
+start /MIN %Disk%:\scite\bin\Sc1.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+REM start /MIN cmd.exe /k "y:\cp2018.bat"
+REM start /MIN cmd.exe /k "y:\cp2018_http_server.bat
+REM start /MIN cmd.exe /k "y:\cadp2018.bat"
+REM 啟動 Leo 編輯器
+%Disk%:\p37\python.exe %Disk%:\launchLeo.py
+REM 啟動 stunnel
+REM start /MIN fossil.exe server -P 127.0.0.1:8080 %Disk%:\tmp\fossil_repo
+REM start /MIN stunnel.exe
+REM start qtcreator
+Exit</pre>
+<p><strong>stop.bat</strong></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">@echo off
+set Disk=y
+REM 關閉 SciTE
+taskkill /IM Sc1.exe /F
+REM 關閉 python
+taskkill /IM python.exe /F
+taskkill /IM pythonw.exe /F
+REM 關閉 stunnel
+taskkill /IM stunnel.exe /F
+REM 關閉 fossil
+taskkill /IM fossil.exe /F
+rem taskkill /IM sharex.exe /F
+REM 清除 log 資料
+path=%PATH%;
+REM del /Q /F  V:\tmp\*.*
+REM 終止虛擬硬碟與目錄的對應
+subst %Disk%: /D
+REM 關閉 cmd 指令視窗
+taskkill /IM cmd.exe /F
+REM taskkill /IM mingw32 /F
+EXIT
+</pre>
+<h1>Course＆Practice</h1>
 <h2>week10</h2>
 <p>1.改版<span style="color: #ff0000;"><strong>p37</strong></span></p>
 <p>2.操作<span style="color: #ff0000;"><strong>eric6</strong></span></p>
@@ -74,10 +208,17 @@
 <p>建立動態網站</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/2QDqaj_oF3U" width="560"></iframe></p>
 <h2>week12</h2>
-<p>想一個期末專題:小遊戲</p>
-<h2>week13</h2>
-<p>kmolgame範例</p>
-<h2>week14</h2>
+<p>續上週,將github靜態網站與heroku動態網站進行同步</p>
+<p>並構思出一個期末專題:python小遊戲</p>
+<p><img alt="" height="337" src="/images/python小遊戲.png" width="428"/></p><h2>week13</h2>
+<p>這周是老師用kmolgame範例來做講解</p>
+<p>首先用leo.editor開啟kmolgame.leo</p>
+<p><img alt="" height="231" src="/images/kmolgame.leo.png" width="308"/></p>
+<p>做的範例是可愛的小兔子</p>
+<p>從這裡調整座標跟圖片</p>
+<p><img alt="" height="51" src="/images/座標.png" width="622"/></p>
+<p>複製兩隻兔子完成後</p>
+<p><img alt="" height="216" src="/images/2個兔子.png" width="310"/></p><h2>week14</h2>
 <p>設定密碼</p>
 <h2>week15</h2>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/nEZo_QPwgto" width="560"></iframe></p>
@@ -85,7 +226,6 @@
 <p><img alt="" height="301" src="/images/p37_13-48-55.png" width="557"/></p>
 <h2>week17</h2>
 <h2>week18</h2>
-<h1>Independent Study</h1>
 <h1>Issue＆Solution</h1>
 <h1>Experience</h1>
 <h2>第十周</h2>
@@ -127,8 +267,7 @@
 <p>40723235</p>
 <p>40723238</p>
 <p>40723240</p>
-<p>這周是教如何設定分組密碼,過程稍有複雜,算走一步算一步了.</p>
-<h2>第十五周</h2>
+<p>這周是教如何設定分組密碼,過程稍有複雜.</p><h2>第十五周</h2>
 <p>40723227</p>
 <p>40723228</p>
 <p>40723229</p>
@@ -165,7 +304,7 @@
 <h1>Attend＆Absence</h1>
 <p><strong>每周組員點名:</strong></p>
 <p><strong>                                                正常出席:o               遲到:△                未到:x</strong></p>
-<table border="1" height="367" style="border-collapse: collapse; width: 120.828%; height: 452px;">
+<table border="1" height="367" style="border-collapse: collapse; width: 107.992%; height: 584px;">
 <tbody>
 <tr style="height: 49px;">
 <td style="width: 12.0127%; height: 49px;"></td>
@@ -176,8 +315,7 @@
 <td style="width: 10%; height: 49px;">week14</td>
 <td style="width: 10.1546%; height: 49px;">week15</td>
 <td style="width: 9.99996%; height: 49px;">week16</td>
-<td style="width: 9.69084%; height: 49px;">week17</td>
-<td style="width: 10.1546%; height: 49px;">week18</td>
+<td style="width: 11.432%; height: 49px;">week18</td>
 </tr>
 <tr style="height: 67px;">
 <td style="width: 12.0127%; height: 67px;">    郭倞  </td>
@@ -188,8 +326,7 @@
 <td style="width: 10%; height: 67px;">      O</td>
 <td style="width: 10.1546%; height: 67px;">       O</td>
 <td style="width: 9.99996%; height: 67px; text-align: center;">O</td>
-<td style="width: 9.69084%; height: 67px;"></td>
-<td style="width: 10.1546%; height: 67px;"></td>
+<td style="width: 11.432%; height: 67px;"></td>
 </tr>
 <tr style="height: 67px;">
 <td style="width: 12.0127%; height: 67px;"> 許博閔</td>
@@ -200,8 +337,7 @@
 <td style="width: 10%; height: 67px;">      O</td>
 <td style="width: 10.1546%; height: 67px;">       O</td>
 <td style="width: 9.99996%; height: 67px; text-align: center;">O</td>
-<td style="width: 9.69084%; height: 67px;"></td>
-<td style="width: 10.1546%; height: 67px;"></td>
+<td style="width: 11.432%; height: 67px;"></td>
 </tr>
 <tr style="height: 67px;">
 <td style="width: 12.0127%; height: 67px;"> 陳羽泓</td>
@@ -212,8 +348,7 @@
 <td style="width: 10%; height: 67px;">      O</td>
 <td style="width: 10.1546%; height: 67px;">       O</td>
 <td style="width: 9.99996%; height: 67px; text-align: center;">O</td>
-<td style="width: 9.69084%; height: 67px;"></td>
-<td style="width: 10.1546%; height: 67px;"></td>
+<td style="width: 11.432%; height: 67px;"></td>
 </tr>
 <tr style="height: 67px;">
 <td style="width: 12.0127%; height: 67px;"> 馮寬永</td>
@@ -224,8 +359,7 @@
 <td style="width: 10%; height: 67px;">      O</td>
 <td style="width: 10.1546%; height: 67px;">       O</td>
 <td style="width: 9.99996%; height: 67px; text-align: center;">O</td>
-<td style="width: 9.69084%; height: 67px;"></td>
-<td style="width: 10.1546%; height: 67px;"></td>
+<td style="width: 11.432%; height: 67px;"></td>
 </tr>
 <tr style="height: 67px;">
 <td style="width: 12.0127%; height: 67px;"> 黃語晨</td>
@@ -236,8 +370,7 @@
 <td style="width: 10%; height: 67px;">      O</td>
 <td style="width: 10.1546%; height: 67px;">       O</td>
 <td style="width: 9.99996%; height: 67px; text-align: center;">O</td>
-<td style="width: 9.69084%; height: 67px;"></td>
-<td style="width: 10.1546%; height: 67px;"></td>
+<td style="width: 11.432%; height: 67px;"></td>
 </tr>
 <tr style="height: 58px;">
 <td style="width: 12.0127%; height: 58px;"> 楊朝有</td>
@@ -248,8 +381,7 @@
 <td style="width: 10%; height: 58px;">      O</td>
 <td style="width: 10.1546%; height: 58px;">       O</td>
 <td style="width: 9.99996%; height: 58px; text-align: center;">O</td>
-<td style="width: 9.69084%; height: 58px;"></td>
-<td style="width: 10.1546%; height: 58px;"></td>
+<td style="width: 11.432%; height: 58px;"></td>
 </tr>
 </tbody>
 </table>

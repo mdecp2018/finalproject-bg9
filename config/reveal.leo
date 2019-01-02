@@ -30,10 +30,10 @@
 <v t="leo.20181231145135.1"><vh>封面投影片3</vh>
 <v t="leo.20181231145135.2"><vh>專題內容</vh></v>
 </v>
-<v t="leo.20181231192113.1"><vh>封面投影片4</vh>
+<v t="leo.20181231192113.1" a="E"><vh>封面投影片4</vh>
 <v t="leo.20181231192113.2"><vh>專題影片-講解</vh></v>
 </v>
-<v t="leo.20181231192739.1"><vh>封面投影片5</vh>
+<v t="leo.20181231192739.1" a="E"><vh>封面投影片5</vh>
 <v t="leo.20181231192739.2"><vh>專題影片-語法</vh></v>
 </v>
 </v>
@@ -287,9 +287,10 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20181231192113.2">## pygame
+<t tx="leo.20181231192113.2">## pygame-打磚塊
 
-#### 首先用P37輸入 pip install game,再去執行用python語法寫好儲存成.py的檔案,成功執行後如下圖
+#### 首先用P37輸入 pip install pygame,再去執行用python語法寫好儲存成.py的檔案,成功執行後如下圖
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/VTR5nbKppKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 
@@ -315,7 +316,11 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20181231192739.2">## 語法解析
 
-#### 
+
+
+
+
+
 
 
 

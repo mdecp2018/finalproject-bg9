@@ -42,6 +42,18 @@
 <v t="leo.20190104104152.1"><vh>封面投影片7</vh>
 <v t="leo.20190104104152.2"><vh>專題影片-語法</vh></v>
 </v>
+<v t="leo.20190104112552.1"><vh>封面投影片8</vh>
+<v t="leo.20190104112552.2"><vh>專題影片-語法</vh></v>
+</v>
+<v t="leo.20190104113036.1" a="E"><vh>封面投影片9</vh>
+<v t="leo.20190104113036.2"><vh>專題影片-語法</vh></v>
+</v>
+<v t="leo.20190104113040.1" a="E"><vh>封面投影片10</vh>
+<v t="leo.20190104113040.2"><vh>專題影片-語法</vh></v>
+</v>
+<v t="leo.20190104113037.1" a="E"><vh>封面投影片11</vh>
+<v t="leo.20190104113037.2"><vh>專題影片-語法</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -391,6 +403,142 @@ vertical: body pane on the botton</t>
 &lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/04/KB9h6t.png
 "&gt;&lt;img src="https://upload.cc/i1/2019/01/04/KB9h6t.png
 " title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20190104112552.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190104112552.2">## 語法解析
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/04/ei6zJy.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/04/ei6zJy.png
+" width="1200" height="570"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20190104113036.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190104113036.2">## 語法解析
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/04/VBsNDr.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/04/VBsNDr.png
+" width="1200" height="570"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20190104113037.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190104113037.2">## 語法解析
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/04/dZk1AU.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/04/dZk1AU.png
+" width="1200" height="570"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20190104113040.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190104113040.2">## 語法解析
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/04/4ZiBkn.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/04/4ZiBkn.png
+" width="1200" height="570"&gt;&lt;/a&gt;&lt;/p&gt;
+
 
 
 

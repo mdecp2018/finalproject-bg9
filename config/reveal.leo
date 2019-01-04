@@ -24,7 +24,7 @@
 <v t="leo.20180827201621.9"><vh>封面投影片1</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190104114713.1" a="E"><vh>封面投影片2</vh>
+<v t="leo.20190104114713.1"><vh>封面投影片2</vh>
 <v t="leo.20190104114713.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20181231152227.1"><vh>封面投影片3</vh>
@@ -42,20 +42,29 @@
 <v t="leo.20190104104149.1"><vh>封面投影片7</vh>
 <v t="leo.20190104104149.2"><vh>專題影片-語法</vh></v>
 </v>
-<v t="leo.20190104104152.1"><vh>封面投影片8</vh>
-<v t="leo.20190104104152.2"><vh>專題影片-語法</vh></v>
+<v t="leo.20190105004817.1" a="E"><vh>封面投影片8</vh>
+<v t="leo.20190105004817.2"><vh>專題影片-語法</vh></v>
 </v>
-<v t="leo.20190104112552.1"><vh>封面投影片9</vh>
-<v t="leo.20190104112552.2"><vh>專題影片-語法</vh></v>
+<v t="leo.20190105004828.1" a="E"><vh>封面投影片9</vh>
+<v t="leo.20190105004828.2"><vh>專題影片-語法</vh></v>
 </v>
-<v t="leo.20190104113036.1"><vh>封面投影片10</vh>
-<v t="leo.20190104113036.2"><vh>專題影片-語法</vh></v>
+<v t="leo.20190105004831.1" a="E"><vh>封面投影片10</vh>
+<v t="leo.20190105004831.2"><vh>專題影片-語法</vh></v>
 </v>
-<v t="leo.20190104113040.1"><vh>封面投影片11</vh>
-<v t="leo.20190104113040.2"><vh>專題影片-語法</vh></v>
+<v t="leo.20190105004833.1" a="E"><vh>封面投影片11</vh>
+<v t="leo.20190105004833.2"><vh>專題影片-語法</vh></v>
 </v>
-<v t="leo.20190104113037.1"><vh>封面投影片12</vh>
-<v t="leo.20190104113037.2"><vh>專題影片-語法</vh></v>
+<v t="leo.20190105004834.1" a="E"><vh>封面投影片12</vh>
+<v t="leo.20190105004834.2"><vh>專題影片-語法</vh></v>
+</v>
+<v t="leo.20190105004839.1" a="E"><vh>封面投影片13</vh>
+<v t="leo.20190105004839.2"><vh>專題影片-語法</vh></v>
+</v>
+<v t="leo.20190105004842.1" a="E"><vh>封面投影片14</vh>
+<v t="leo.20190105004842.2"><vh>專題影片-語法</vh></v>
+</v>
+<v t="leo.20190105004836.1" a="E"><vh>封面投影片15</vh>
+<v t="leo.20190105004836.2"><vh>專題影片-語法</vh></v>
 </v>
 </v>
 </v>
@@ -148,8 +157,10 @@ vertical: body pane on the botton</t>
 #### 虎科大機械設計工程系
 
 
+[Finalproject-bg9期末分組網站](./../content/index.html)
 
 [Finalproject-bg9期末分組網誌](./../blog/index.html)
+
 
 
 </t>
@@ -258,7 +269,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20181231145135.2">## 內容
 
-#### 小時候玩過許多2D單機小遊戲,卻不知道是由甚麼構成,今天就來探討由python語法所寫成的小遊戲,去了解程式碼是由哪些部分所組成
+##### Pygame是跨平台Python模組，專為電子遊戲設計。包含圖像、聲音。建立在SDL基礎上，允許實時電子遊戲研發而無需被低階語言，如C語言或是更低階的組合語言束縛。基於這樣一個設想，所有需要的遊戲功能和理念都（主要是圖像方面）完全簡化位遊戲邏輯本身，所有的資源結構都可以由高階語言提供，如Python。
 
 
 
@@ -282,11 +293,11 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20181231152227.2">## 專題名稱
+<t tx="leo.20181231152227.2">### 專題名稱
 
-### 小遊戲
+##### pygame語法分析
 
-#### python語法分析
+
 
 
 
@@ -337,10 +348,9 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20181231192739.2">## 語法解析
-&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/04/d5Lr8H.png
-"&gt;&lt;img src="https://upload.cc/i1/2019/01/04/d5Lr8H.png
-" width="1200" height="570"&gt;&lt;/a&gt;&lt;/p&gt;
+<t tx="leo.20181231192739.2">##### 語法分析1
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/05/fbW1nF.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/05/fbW1nF.png"&gt;&lt;/a&gt;&lt;/p&gt;
 
 
 
@@ -369,179 +379,9 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190104104149.2">## 語法解析
-&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/04/c7gZhx.png
-"&gt;&lt;img src="https://upload.cc/i1/2019/01/04/c7gZhx.png
-" width="1200" height="570"&gt;&lt;/a&gt;&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="leo.20190104104152.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190104104152.2">## 語法解析
-&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/04/KB9h6t.png
-"&gt;&lt;img src="https://upload.cc/i1/2019/01/04/KB9h6t.png
-" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="leo.20190104112552.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190104112552.2">## 語法解析
-&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/04/ei6zJy.png
-"&gt;&lt;img src="https://upload.cc/i1/2019/01/04/ei6zJy.png
-" width="1200" height="570"&gt;&lt;/a&gt;&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="leo.20190104113036.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190104113036.2">## 語法解析
-&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/04/VBsNDr.png
-"&gt;&lt;img src="https://upload.cc/i1/2019/01/04/VBsNDr.png
-" width="1200" height="570"&gt;&lt;/a&gt;&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="leo.20190104113037.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190104113037.2">## 語法解析
-&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/04/dZk1AU.png
-"&gt;&lt;img src="https://upload.cc/i1/2019/01/04/dZk1AU.png
-" width="1200" height="570"&gt;&lt;/a&gt;&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="leo.20190104113040.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190104113040.2">## 語法解析
-&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/04/4ZiBkn.png
-"&gt;&lt;img src="https://upload.cc/i1/2019/01/04/4ZiBkn.png
-" width="1200" height="570"&gt;&lt;/a&gt;&lt;/p&gt;
-
+<t tx="leo.20190104104149.2">##### 語法分析2
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/05/pv8C5G.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/05/pv8C5G.png"&gt;&lt;/a&gt;&lt;/p&gt;
 
 
 
@@ -575,11 +415,272 @@ vertical: body pane on the botton</t>
 
 #### 報告成員
         40723240 楊朝有
+        
         40723238 黃語晨
+        
         40723235 馮寬永
+        
         40723229 陳羽泓
+        
         40723228 郭倞 (組長)
+        
         40723227 許博閔
+
+
+
+
+
+</t>
+<t tx="leo.20190105004817.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190105004817.2">##### 語法分析3
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/05/fl34ns.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/05/fl34ns.png"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20190105004828.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190105004828.2">##### 語法分析4
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/05/3rYe46.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/05/3rYe46.png"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20190105004831.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190105004831.2">##### 語法分析5
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/05/thY8zV.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/05/thY8zV.png"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20190105004833.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190105004833.2">##### 語法分析6
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/05/a2fQDe.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/05/a2fQDe.png"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20190105004834.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190105004834.2">##### 語法分析7
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/05/ZYb8B2.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/05/ZYb8B2.png"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20190105004836.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190105004836.2">##### 語法分析10
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/05/jWVPhB.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/05/jWVPhB.png"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20190105004839.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190105004839.2">##### 語法分析8
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/05/sFAp3T.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/05/sFAp3T.png"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20190105004842.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190105004842.2">##### 語法分析9
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/05/eL6sI9.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/05/eL6sI9.png"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

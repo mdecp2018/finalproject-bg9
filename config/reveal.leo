@@ -30,11 +30,17 @@
 <v t="leo.20181231145135.1"><vh>封面投影片3</vh>
 <v t="leo.20181231145135.2"><vh>專題內容</vh></v>
 </v>
-<v t="leo.20181231192113.1" a="E"><vh>封面投影片4</vh>
-<v t="leo.20181231192113.2"><vh>專題影片-講解</vh></v>
+<v t="leo.20181231192113.1"><vh>封面投影片4</vh>
+<v t="leo.20181231192113.2"><vh>專題圖片-講解</vh></v>
 </v>
-<v t="leo.20181231192739.1" a="E"><vh>封面投影片5</vh>
+<v t="leo.20181231192739.1"><vh>封面投影片5</vh>
 <v t="leo.20181231192739.2"><vh>專題影片-語法</vh></v>
+</v>
+<v t="leo.20190104104149.1"><vh>封面投影片6</vh>
+<v t="leo.20190104104149.2"><vh>專題影片-語法</vh></v>
+</v>
+<v t="leo.20190104104152.1"><vh>封面投影片7</vh>
+<v t="leo.20190104104152.2"><vh>專題影片-語法</vh></v>
 </v>
 </v>
 </v>
@@ -122,13 +128,13 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">### Finalproject-bg9期末分組網站
+<t tx="leo.20180827201621.10">### Finalproject-bg9專題簡報
 
 #### 虎科大機械設計工程系
 
 
 
-[2018 Fall 分組網誌](./../blog/index.html)
+[Finalproject-bg9期末分組網誌](./../blog/index.html)
 
 
 </t>
@@ -237,7 +243,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20181231145135.2">## 內容
 
-#### 小時候玩過許多2D單機小遊戲,卻不知道是由甚麼構成,今天就來探討由python語法所寫成的小遊戲
+#### 小時候玩過許多2D單機小遊戲,卻不知道是由甚麼構成,今天就來探討由python語法所寫成的小遊戲,去了解程式碼是由哪些部分所組成
 
 
 
@@ -287,13 +293,15 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20181231192113.2">## pygame-打磚塊
+<t tx="leo.20181231192113.2">### pygame-打磚塊
 
-#### 首先用P37輸入 pip install pygame,再去執行用python語法寫好儲存成.py的檔案,成功執行後如下圖
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/VTR5nbKppKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+##### 首先用P37輸入 pip install pygame,再去執行用python語法寫好儲存成play.py的檔案,再執行python play.py成功執行後如下圖
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/04/tTkxSU.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/04/tTkxSU.png
+" width="1200" height="410"&gt;&lt;/a&gt;&lt;/p&gt;
 
 
-
+ 
 
 
 
@@ -315,6 +323,74 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20181231192739.2">## 語法解析
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/04/d5Lr8H.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/04/d5Lr8H.png
+" width="1200" height="570"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20190104104149.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190104104149.2">## 語法解析
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/04/c7gZhx.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/04/c7gZhx.png
+" width="1200" height="570"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20190104104152.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190104104152.2">## 語法解析
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/04/KB9h6t.png
+"&gt;&lt;img src="https://upload.cc/i1/2019/01/04/KB9h6t.png
+" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 
 
 

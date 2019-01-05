@@ -42,29 +42,35 @@
 <v t="leo.20190104104149.1"><vh>封面投影片7</vh>
 <v t="leo.20190104104149.2"><vh>專題影片-語法</vh></v>
 </v>
-<v t="leo.20190105004817.1" a="E"><vh>封面投影片8</vh>
+<v t="leo.20190105004817.1"><vh>封面投影片8</vh>
 <v t="leo.20190105004817.2"><vh>專題影片-語法</vh></v>
 </v>
-<v t="leo.20190105004828.1" a="E"><vh>封面投影片9</vh>
+<v t="leo.20190105004828.1"><vh>封面投影片9</vh>
 <v t="leo.20190105004828.2"><vh>專題影片-語法</vh></v>
 </v>
-<v t="leo.20190105004831.1" a="E"><vh>封面投影片10</vh>
+<v t="leo.20190105004831.1"><vh>封面投影片10</vh>
 <v t="leo.20190105004831.2"><vh>專題影片-語法</vh></v>
 </v>
-<v t="leo.20190105004833.1" a="E"><vh>封面投影片11</vh>
+<v t="leo.20190105004833.1"><vh>封面投影片11</vh>
 <v t="leo.20190105004833.2"><vh>專題影片-語法</vh></v>
 </v>
-<v t="leo.20190105004834.1" a="E"><vh>封面投影片12</vh>
+<v t="leo.20190105004834.1"><vh>封面投影片12</vh>
 <v t="leo.20190105004834.2"><vh>專題影片-語法</vh></v>
 </v>
-<v t="leo.20190105004839.1" a="E"><vh>封面投影片13</vh>
+<v t="leo.20190105004839.1"><vh>封面投影片13</vh>
 <v t="leo.20190105004839.2"><vh>專題影片-語法</vh></v>
 </v>
-<v t="leo.20190105004842.1" a="E"><vh>封面投影片14</vh>
+<v t="leo.20190105004842.1"><vh>封面投影片14</vh>
 <v t="leo.20190105004842.2"><vh>專題影片-語法</vh></v>
 </v>
-<v t="leo.20190105004836.1" a="E"><vh>封面投影片15</vh>
+<v t="leo.20190105004836.1"><vh>封面投影片15</vh>
 <v t="leo.20190105004836.2"><vh>專題影片-語法</vh></v>
+</v>
+<v t="leo.20190105160229.1"><vh>封面投影片16</vh>
+<v t="leo.20190105160229.2"><vh>ggame</vh></v>
+</v>
+<v t="leo.20190105162334.1" a="E"><vh>封面投影片17</vh>
+<v t="leo.20190105162334.2"><vh>END</vh></v>
 </v>
 </v>
 </v>
@@ -154,12 +160,15 @@ vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
 <t tx="leo.20180827201621.10">### Finalproject-bg9專題簡報
 
-#### 虎科大機械設計工程系
+##### 虎科大機械設計工程系
 
 
-[Finalproject-bg9期末分組網站](./../content/index.html)
+[網站](./../content/index.html)
 
-[Finalproject-bg9期末分組網誌](./../blog/index.html)
+[網誌](./../blog/index.html)
+
+[倉儲](./..)
+
 
 
 
@@ -411,20 +420,19 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190104114713.2">### Finalproject-bg9
+<t tx="leo.20190104114713.2">#### Finalproject-bg9成員列表
 
-#### 報告成員
-        40723240 楊朝有
-        
-        40723238 黃語晨
-        
-        40723235 馮寬永
-        
-        40723229 陳羽泓
-        
-        40723228 郭倞 (組長)
-        
-        40723227 許博閔
+      40723227  許博閔 (期中自評成績：87)
+
+      40723228  郭倞 (期中自評成績：60) (組長)
+
+      40723229  陳羽泓 (期中自評成績：70)
+
+      40723235  馮寬永 (期中自評成績：30) 
+
+      40723238  黃語晨 (期中自評成績：65)
+
+      40723240  楊朝有 (期中自評成績：87)
 
 
 
@@ -667,6 +675,81 @@ vertical: body pane on the botton</t>
 <t tx="leo.20190105004842.2">##### 語法分析9
 &lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/05/eL6sI9.png
 "&gt;&lt;img src="https://upload.cc/i1/2019/01/05/eL6sI9.png"&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20190105160229.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190105160229.2">##### ggame introduce
+
+The simple cross-platform sprite and game platform for Brython Server
+
+Ggame stands for a couple of things: "good game" (of course!) and also "git game" or "github game" because it is designed to operate with Brython Server in concert with Github as a backend file store.
+
+The ggame library is intended to be trivially easy to use.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20190105162334.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190105162334.2"># END
+
+
+##### 程式語言就同英文一樣，學習只有開始，沒有結束
+
+##### 要努力不懈堅持下去
+
+
 
 
 

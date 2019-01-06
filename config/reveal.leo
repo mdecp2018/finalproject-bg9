@@ -21,7 +21,7 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9"><vh>封面投影片1</vh>
+<v t="leo.20180827201621.9" a="E"><vh>封面投影片1</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20190104114713.1"><vh>封面投影片2</vh>
@@ -69,7 +69,7 @@
 <v t="leo.20190105160229.1"><vh>封面投影片16</vh>
 <v t="leo.20190105160229.2"><vh>ggame</vh></v>
 </v>
-<v t="leo.20190105162334.1" a="E"><vh>封面投影片17</vh>
+<v t="leo.20190105162334.1"><vh>封面投影片17</vh>
 <v t="leo.20190105162334.2"><vh>END</vh></v>
 </v>
 </v>
@@ -167,7 +167,7 @@ vertical: body pane on the botton</t>
 
 [網誌](./../blog/index.html)
 
-[倉儲](./..)
+[倉儲](https://github.com/mdecp2018/finalproject-bg9)
 
 
 

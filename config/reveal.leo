@@ -21,11 +21,14 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9" a="E"><vh>封面投影片1</vh>
+<v t="leo.20180827201621.9"><vh>封面投影片1</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20190104114713.1"><vh>封面投影片2</vh>
 <v t="leo.20190104114713.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190107150705.1"><vh>封面投影片分工</vh>
+<v t="leo.20190107150705.2"><vh>分工</vh></v>
 </v>
 <v t="leo.20181231152227.1"><vh>封面投影片3</vh>
 <v t="leo.20181231152227.2"><vh>專題名稱</vh></v>
@@ -35,6 +38,9 @@
 </v>
 <v t="leo.20181231192113.1"><vh>封面投影片5</vh>
 <v t="leo.20181231192113.2"><vh>專題圖片-講解</vh></v>
+</v>
+<v t="leo.20190107151754.1"><vh>封面投影片-影片</vh>
+<v t="leo.20190107151754.2"><vh>專題影片</vh></v>
 </v>
 <v t="leo.20181231192739.1"><vh>封面投影片6</vh>
 <v t="leo.20181231192739.2"><vh>專題影片-語法</vh></v>
@@ -69,7 +75,10 @@
 <v t="leo.20190105160229.1"><vh>封面投影片16</vh>
 <v t="leo.20190105160229.2"><vh>ggame</vh></v>
 </v>
-<v t="leo.20190105162334.1"><vh>封面投影片17</vh>
+<v t="leo.20190107150057.1" a="E"><vh>封面投影片17</vh>
+<v t="leo.20190107150057.2"><vh>GGG</vh></v>
+</v>
+<v t="leo.20190105162334.1"><vh>封面投影片18</vh>
 <v t="leo.20190105162334.2"><vh>END</vh></v>
 </v>
 </v>
@@ -759,6 +768,88 @@ The ggame library is intended to be trivially easy to use.
 
 
 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20190107150057.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190107150057.2">#### Finalproject-bg9成員自評
+
+      40723227  許博閔 (期末自評成績：65)
+
+      40723228  郭倞 (期末自評成績：65) (組長)
+
+      40723229  陳羽泓 (期末自評成績：60)
+
+      40723235  馮寬永 (期末自評成績：65) 
+
+      40723238  黃語晨 (期末自評成績：65)
+
+      40723240  楊朝有 (期末自評成績：77)
+
+
+
+
+
+</t>
+<t tx="leo.20190107150705.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190107150705.2">#### Finalproject-bg9成員分工
+
+      40723227  許博閔 PDF製作 協助組員
+
+      40723228  郭倞 簡報製作協助 上台報告
+
+      40723229  陳羽泓 網站編輯，協助其他組員
+
+      40723235  馮寬永 網站編輯
+
+      40723238  黃語晨 簡報製作協助 上台報告
+
+      40723240  楊朝有 簡報製作 網站課程內容編輯
+
+
+
+
+
+</t>
+<t tx="leo.20190107151754.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190107151754.2">### pygame-打磚塊
+
+ &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/VTR5nbKppKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+ 
 
 
 

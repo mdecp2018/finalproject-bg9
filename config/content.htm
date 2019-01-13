@@ -1,7 +1,7 @@
 <h1>Introduction</h1>
 <p>2018 Fall 期末分組網站</p>
 <p>專題報告:<a href="/downloads/BG9報告.pdf">bg9報告</a></p>
-<p>小遊戲:松鼠吃吃</p>
+<p>小遊戲:<a href="https://www.youtube.com/watch?v=rSIfMtaf_4M">松鼠吃吃</a></p>
 <p>本倉儲位於:  <a href="https://github.com/mdecp2018/finalproject-bg9">https://github.com/mdecp2018/finalproject-bg9</a></p>
 <p>github靜態: <a href="https://mdecp2018.github.io/finalproject-bg9">https://mdecp2018.github.io/finalproject-bg9</a></p>
 <p>heroku動態: <span> <a href="http://cp2018-bg9.herokuapp.com"> http://cp2018-bg9.herokuapp.com</a></span></p>
@@ -13,7 +13,8 @@
 <p><span>40723229 陳羽泓 期中自評成績: <span style="color: #ff0000;">70 </span>倉儲:<a href="https://mdecp2018.github.io/site-s40723229"> https://mdecp2018.github.io/site-s40723229</a></span></p>
 <p><span>40723235 馮寬永 期中自評成績: <span style="color: #ff0000;">30 </span>倉儲:<a href="https://mdecp2018.github.io/site-s40723235"> https://mdecp2018.github.io/site-s40723235</a></span></p>
 <p><span>40723238 黃語晨 期中自評成績: <span style="color: #ff0000;">65 </span>倉儲:<a href="https://mdecp2018.github.io/site-s40723238"> https://mdecp2018.github.io/site-s40723238</a></span></p>
-<p><span>40723240 楊朝有 期中自評成績: <span style="color: #ff0000;">87 </span>倉儲:<a href="https://mdecp2018.github.io/site-s40723240"> https://mdecp2018.github.io/site-s40723240</a></span></p><h2>git指令</h2>
+<p><span>40723240 楊朝有 期中自評成績: <span style="color: #ff0000;">87 </span>倉儲:<a href="https://mdecp2018.github.io/site-s40723240"> https://mdecp2018.github.io/site-s40723240</a></span></p>
+<h2>git指令</h2>
 <p>git基本指令<br/>mkdir name 創建一個文檔夾</p>
 <p>rm file 刪除</p>
 <p>cd name 進入文檔夾</p>
@@ -352,7 +353,205 @@ EXIT
 <h2>第14周</h2>
 <p><a href="/downloads/WEEK14報告.pdf">week14報告.pdf</a></p>
 <h2>專題報告</h2>
-<p><a href="/downloads/BG9報告.pdf">BG9報告</a></p><h2>打磚塊程式碼</h2>
+<p><a href="/downloads/BG9報告.pdf">BG9報告</a></p>
+<h2>專題程式碼</h2>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">@language python
+# 導入模組
+from ggame import App, ImageAsset, Sprite, MouseEvent, Frame, TextAsset
+from ggame import Color, Sound, LineStyle, RectangleAsset, CircleAsset, PolygonAsset, SoundAsset
+from random import random, randint
+import math
+from time import time
+
+up = 0
+down = 0
+right = 0
+left = 0
+pg = 0
+gg = 0
+
+def w(event):
+     global up
+     global down
+     global right
+     global life
+     global pg
+     pg = 4
+     up = 1
+     down = 0
+     right = 0
+     life = 0
+     
+def s(event):
+     global up
+     global down
+     global right
+     global life
+     global pg
+     pg = 1
+     up = 0
+     down = 1
+     right = 0
+     life = 0
+    
+def d(event):
+     global up
+     global down
+     global right
+     global life
+     global pg
+     pg = 0
+     up = 0
+     down = 0
+     right = 1
+     life = 0
+    
+def a(event):
+     global up
+     global down
+     global right
+     global life
+     global pg
+     pg = 4
+     up = 0
+     down = 0
+     right = 0
+     life = 1
+     
+     
+class GG(Sprite):
+    
+    asset = ImageAsset("images/pass.png")
+    
+    def __init__(self, position):
+        super().__init__(GG.asset, position)
+        self.scale = 1
+        self.visible = False
+         
+    def step(self):
+        if gg:
+            self.visible = True
+
+
+class G(Sprite):
+    
+    asset = ImageAsset("images/x.png")
+    
+    def __init__(self, position):
+        super().__init__(G.asset, position)
+        self.scale = 0.5
+         
+    def step(self):
+        if random() &lt; 0.1:
+            self.x += randint(-60,60)
+            self.y += randint(-60,60)
+
+
+class Bunny(Sprite):
+    
+    asset = ImageAsset("images/rat.png",Frame(0,0,500,500), 1)
+    
+    def __init__(self, position):
+        super().__init__(Bunny.asset, position)
+        App.listenKeyEvent('keydown', 'w', w)
+        App.listenKeyEvent('keydown', 's', s)
+        App.listenKeyEvent('keydown', 'd', d)
+        App.listenKeyEvent('keydown', 'a', a)
+        self.scale = 0.3
+        
+    def step(self):
+        global up
+        global down
+        global right
+        global life
+        global pg
+        global gg
+        self.G = app.G
+        if up and self.y &gt; 0:
+            self.setImage(pg)
+            self.y -= 10
+        if down and self.y &lt; 770:
+            self.setImage(pg)
+            self.y += 10
+        if right and self.x &lt; 1710:
+            self.setImage(pg)
+            self.x += 10
+        if life and self.x &gt; 0:
+            self.setImage(pg)
+            self.x -= 10
+        if self.G.x + self.G.width &gt;= self.x &gt;=self.G.x and self.G.y + self.G.height &gt;= self.y &gt;= self.G.y:
+            self.visible = False
+            gg = 1
+
+
+class A(Sprite):
+
+    asset = ImageAsset("images/food.png")
+    
+    def __init__(self, position):
+        super().__init__(A.asset, position)
+        self.scale = 0.08
+        
+    def step(self):
+        self.Bunny = app.Bunny
+        if self.Bunny.x + self.Bunny.width &gt;= self.x &gt;=self.Bunny.x and self.Bunny.y + self.Bunny.height &gt;= self.y &gt;= self.Bunny.y:
+            self.visible = False
+
+class AA(Sprite):
+
+    asset = ImageAsset("images/food.png")
+    
+    def __init__(self, position):
+        super().__init__(AA.asset, position)
+        self.scale = 0.15
+        
+    def step(self):
+        self.Bunny = app.Bunny
+        if self.Bunny.x + self.Bunny.width &gt;= self.x &gt;=self.Bunny.x and self.Bunny.y + self.Bunny.height &gt;= self.y &gt;= self.Bunny.y:
+            self.visible = False
+            self.Bunny.scale =0.5
+            
+            
+class Bg(Sprite):
+
+    asset = ImageAsset("images/white.png")
+    
+    def __init__(self, position):
+        super().__init__(Bg.asset, position)
+        
+    def step(self):
+            self.x = 0
+            self.y = 0
+
+
+class DemoApp(App):
+
+    def __init__(self):
+        super().__init__()
+        Bg((self.width/2, self.height/2))
+        for i in range(10):
+            A((randint(50,1680),randint(50,750)))
+        for c in range(10):
+            AA((randint(50,1680),randint(50,750)))
+        self.Bunny = Bunny((50,50))
+        self.G = G((840, 250))
+        self.GG = GG((740, 250))
+
+    def step(self):
+        for bunny in self.spritelist:
+            bunny.step()
+
+
+app = DemoApp()  
+app.run()
+
+
+
+
+
+ 
+</pre>
+<h2>打磚塊程式碼</h2>
 <p><strong>play.py</strong></p>
 <pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># encoding: utf-8
  

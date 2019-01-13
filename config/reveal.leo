@@ -30,6 +30,9 @@
 <v t="leo.20190107150705.1"><vh>封面投影片分工</vh>
 <v t="leo.20190107150705.2"><vh>分工</vh></v>
 </v>
+<v t="leo.20190113113614.1"><vh>封面投影片分工</vh>
+<v t="leo.20190113113614.2"><vh>分工</vh></v>
+</v>
 <v t="leo.20181231152227.1"><vh>封面投影片3</vh>
 <v t="leo.20181231152227.2"><vh>專題名稱</vh></v>
 </v>
@@ -75,7 +78,10 @@
 <v t="leo.20190105160229.1"><vh>封面投影片16</vh>
 <v t="leo.20190105160229.2"><vh>ggame</vh></v>
 </v>
-<v t="leo.20190107150057.1" a="E"><vh>封面投影片17</vh>
+<v t="leo.20190113114014.1" a="E"><vh>封面投影片專題</vh>
+<v t="leo.20190113114014.2"><vh>ggame</vh></v>
+</v>
+<v t="leo.20190107150057.1"><vh>封面投影片17</vh>
 <v t="leo.20190107150057.2"><vh>GGG</vh></v>
 </v>
 <v t="leo.20190105162334.1"><vh>封面投影片18</vh>
@@ -314,6 +320,7 @@ vertical: body pane on the botton</t>
 <t tx="leo.20181231152227.2">### 專題名稱
 
 ##### pygame語法分析
+##### ggame小遊戲
 
 
 
@@ -800,7 +807,7 @@ The ggame library is intended to be trivially easy to use.
 
       40723238  黃語晨 (期末自評成績：65)
 
-      40723240  楊朝有 (期末自評成績：77)
+      40723240  楊朝有 (期末自評成績：77)   
 
 
 
@@ -828,7 +835,7 @@ The ggame library is intended to be trivially easy to use.
 
       40723238  黃語晨 簡報製作協助 上台報告
 
-      40723240  楊朝有 簡報製作 網站課程內容編輯
+      40723240  楊朝有 簡報製作 網站課程內容編輯 專題撰寫製作
 
 
 
@@ -850,6 +857,61 @@ The ggame library is intended to be trivially easy to use.
 
 
  
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20190113113614.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190113113614.2">#### Finalproject-bg9專題PDF報告
+
+[專題報告](https://mdecp2018.github.io/finalproject-bg9/downloads/BG9%E5%A0%B1%E5%91%8A.pdf)
+
+
+
+
+
+
+</t>
+<t tx="leo.20190113114014.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190113114014.2">##### 專題-松鼠吃吃
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/rSIfMtaf_4M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
